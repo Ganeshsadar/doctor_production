@@ -1,0 +1,53 @@
+.example-full-width {
+    width: 100%;
+  }
+  .container{
+   overflow-y: scroll;
+    /* width: 700px; */
+    height: 600px;
+  }
+  /* .mat-mdc-radio-button ~ .mat-mdc-radio-button {
+    margin-left: 16px;
+  } */
+  .example-form {
+    min-width: 70px;
+    max-width: 700px;
+    width: 100%;
+  }
+  .gender{
+    display: flex;
+    flex-direction: column;
+  }
+  .monum{
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .genu{
+    display:flex;
+    justify-content: space-between;
+ 
+    
+  }
+  .deed{
+    display: flex;
+    gap: 30px;
+    
+  }
+  .Exp{
+    display: flex;
+    gap: 30px;
+  }
+  .example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+  }
+  .bt{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+  }
+  .disp{
+    display: flex;
+    flex-direction: column;
+  }

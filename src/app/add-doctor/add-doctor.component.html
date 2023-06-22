@@ -1,0 +1,123 @@
+<div class="container">
+    <div class="row justify-content">
+        <div>
+            <form>
+                <div>
+                    <h2>
+                        New Doctor
+                    </h2>
+                </div>
+                <hr>
+                <div>
+                    <label>Doctor Name</label>
+                    <mat-form-field class="example-full-width">
+                       
+                        <input matInput >
+                    </mat-form-field>
+                </div>
+                <div class="genu" >
+                    <div class="gender" >
+                        <label>Gender</label>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Male</mat-radio-button>
+                            <mat-radio-button value="2">Female</mat-radio-button>
+                        </mat-radio-group>
+                    </div>
+                    <div class="monum" >
+                        <label>Mobile Number</label>
+                        <form class="example-form">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Telephone</mat-label>
+                                <span matPrefix>+1 &nbsp;</span>
+                                <input type="tel" matInput placeholder="555-555-1234">
+                                <mat-icon matSuffix>mode_edit</mat-icon>
+                            </mat-form-field>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <label> Email</label>
+                    <form class="example-form">
+                        <mat-form-field class="example-full-width">
+                            
+                            <input matInput >
+                        </mat-form-field>
+                    </form>
+
+                </div>
+                <div class="deed">
+                    <div>
+                        <label>
+                            Department
+                        </label>
+                        <div>
+                            
+                            <mat-form-field appearance="fill">
+                                <mat-label>Select Department</mat-label>
+                                <mat-select formControlName="specilization">
+                                    <mat-option>Select disease</mat-option>
+                                    <mat-option *ngFor="let dis of this.http.departmen" [value]="dis">
+                                        {{ dis }}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+
+                    </div>
+                    <div>
+                        <label>Education</label>
+                        <mat-form-field class="example-full-width">
+                           
+                            <input matInput >
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="Exp">
+                    <div class="disp">
+                        <label>Experience</label>
+                        <mat-form-field>
+                            <mat-label>Select Experience</mat-label>
+                            <mat-select>
+                                <mat-option value="option">Option</mat-option>
+                                <mat-option value="option">Option</mat-option>
+                                <mat-option value="option">Option</mat-option>
+                                <mat-option value="option">Option</mat-option>
+                            </mat-select>
+
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <label>Designation</label>
+                        <mat-form-field class="example-full-width">
+                           
+                            <input matInput >
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div>
+                    <label>Duty Timing</label>
+                    <div>
+                    <mat-form-field>
+                        <mat-label>Select Time</mat-label>
+                        <mat-select>
+                            <mat-option value="option">Option</mat-option>
+                            <mat-option value="option">Option</mat-option>
+                            <mat-option value="option">Option</mat-option>
+                            <mat-option value="option">Option</mat-option>
+                        </mat-select>
+
+                    </mat-form-field>
+                </div>
+
+
+                </div>
+                <div class="bt">
+                    <button mat-stroked-button color="primary">Primary</button>
+                    <button mat-raised-button color="primary">Primary</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>

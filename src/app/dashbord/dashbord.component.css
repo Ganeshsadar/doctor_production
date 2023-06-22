@@ -1,0 +1,194 @@
+
+
+  
+  .dis{
+    display: flex;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  .navbar{
+    width: 100%;
+  }
+  .fica{
+    height: 200px;
+    width: 300px;
+    font-size: 20px;
+   background-color:whitesmoke;
+    /* box-shadow: 1px 1px 1px 1px black; */
+  }
+  .fica1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+  .hea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+  
+  }
+  .hea h2{
+  padding-top: 8px;
+  font-size: 20px;
+  }
+  .second{
+    /* box-shadow: 0 0 0 0.5px black; */
+    background-color: whitesmoke;
+    margin-top: 80px;
+    margin-left: 50px;
+    overflow-y: scroll;
+   overflow-x: scroll;
+  }
+  .recent{
+ margin-top: 100px;
+  }
+  .main{
+    display: flex;
+    
+    gap: 90px;
+  }
+  .activity{
+    overflow-y: scroll;
+    height: 400px;
+  }
+  .recent{
+    width: 400px;
+  
+  
+    background-color :whitesmoke;
+  }
+  .res{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-left: 2px solid red;
+    margin-left: 10px;
+  margin-top: 10px;
+    
+  }
+  .res1{ margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-left: 2px solid rgb(106, 83, 164);
+    
+  }
+  .res2{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-left: 2px solid rgb(222, 105, 8);
+    
+  }
+  .res3{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-left: 2px solid red;
+    
+  }
+  .res4{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-left: 2px solid red;
+    
+  }
+  .res5{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-left: 2px solid red;
+    
+  }
+  #year{
+    color: rgb(208, 208, 29);
+  }
+  .graph{
+    height: 500px;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 50px;
+    /* box-shadow: 1px 1px 1px 1px black; */
+    background-color: whitesmoke;
+  }
+  .cont{
+    display: flex;
+    padding-top: 10px;
+  padding-left: 30px;
+ 
+  }
+  .im img{
+
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+  }
+  .doava{
+    margin-top: 200px;
+    /* box-shadow: 1px 1px 1px 1px black; */
+    background-color: whitesmoke;
+    overflow-y: scroll;
+   height: 300px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .co{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .box{
+    height: 200px;
+    width: 600px;
+    
+    
+    box-shadow: 5px 2px 3px 5px blueviolet;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+}
+.side{
+  margin-left: 300px;
+}
+.num{
+  font-size: 80px;
+  /* display: flex;
+  justify-content:center; */
+  /* align-items: center;
+ align-content: center; */
+ /* padding-top: 40px; */
+ /* margin-top: 40px; */
+ padding-top: 40px;
+padding-left: 20px;
+ opacity: 0.5;
+}
+.num1{
+  padding-left: 30px;
+}

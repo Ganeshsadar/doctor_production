@@ -1,0 +1,109 @@
+<div class="container">
+    <div class="row justify-content">
+        <div>
+            <form>
+                <div>
+                    <h2>
+                        New Patients
+                    </h2>
+                </div>
+                <hr>
+                <div>
+                    <label>Doctor Name</label>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Favorite food</mat-label>
+                        <input matInput >
+                    </mat-form-field>
+                </div>
+                <div class="genu">
+                    <div class="gender">
+                        <label>Gender</label>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Male</mat-radio-button>
+                            <mat-radio-button value="2">Female</mat-radio-button>
+                        </mat-radio-group>
+                    </div>
+                    <div class="monum">
+                        <label>DOB</label>
+                        <div>
+                            <mat-form-field>
+
+                                <input matInput [matDatepicker]="picker">
+                                <mat-hint>MM/DD/YYYY</mat-hint>
+                                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-datepicker #picker></mat-datepicker>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="deed">
+                    <div>
+                        <label>
+                            Blood Group
+                        </label>
+                        <div>
+                            <mat-form-field>
+                                <mat-label>Select me</mat-label>
+                                <mat-select>
+                                    <mat-option value="option">Option</mat-option>
+                                    <mat-option value="option">Option</mat-option>
+                                    <mat-option value="option">Option</mat-option>
+                                    <mat-option value="option">Option</mat-option>
+                                </mat-select>
+
+                            </mat-form-field>
+
+                        </div>
+
+                    </div>
+                    <div>
+                        <label>Mobile Number</label>
+                        <form class="example-form">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Telephone</mat-label>
+                                <span matPrefix>+1 &nbsp;</span>
+                                <input type="tel" matInput >
+                                <mat-icon matSuffix>mode_edit</mat-icon>
+                            </mat-form-field>
+                        </form>
+                    </div>
+                </div>
+                <div>
+                    <label> Email</label>
+                    <form class="example-form">
+                        <mat-form-field class="example-full-width">
+                            
+                            <input matInput >
+                        </mat-form-field>
+                    </form>
+
+                </div>
+                <div>
+                    <label> Symptoms</label>
+                    <form class="example-form">
+                        <mat-form-field class="example-full-width">
+                            
+                            <input matInput >
+                        </mat-form-field>
+                    </form>
+
+
+                </div>
+                <div>
+                    <div mat-dialog-actions>
+                        <button mat-button mat-dialog-close>Close</button>
+                    </div>
+
+                </div>
+                <div class="bt">
+                    <button mat-stroked-button color="primary">Primary</button>
+                    <button mat-raised-button color="primary">Primary</button>
+                </div>
+                
+
+            </form>
+        </div>
+
+    </div>
+</div>

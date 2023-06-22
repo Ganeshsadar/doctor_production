@@ -1,0 +1,11 @@
+ .container1{
+    margin-left: 340px;
+    margin-top: 40px;
+}
+.hea{
+    gap: 30px;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+
+} 
